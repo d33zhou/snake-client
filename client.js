@@ -15,6 +15,9 @@ const connect = function () {
     console.log("Successfully connected to game server.");
 
     conn.write('Name: DZ');
+
+    
+
   });
 
   conn.on('data', (data) => {

@@ -23,18 +23,30 @@ const handleUserInput = function (key) {
 
   if (key === "w") {
     connection.write("Move: up");
+    // connection.write("Say: moving up");
   }
 
   if (key === "a") {
     connection.write("Move: left");
+    // connection.write("Say: moving left");
   }
 
   if (key === "s") {
     connection.write("Move: down");
+    // connection.write("Say: moving down");
   }
 
   if (key === "d") {
     connection.write("Move: right");
+    // connection.write("Say: moving right");
+  }
+
+  if (key === "h") {
+    connection.write("Say: Hello!");
+  }
+
+  if (key === "g") {
+    connection.write("Say: Goodbye");
   }
 };
 
